@@ -1,0 +1,38 @@
+.services-gallery {
+  padding: var(--section-padding);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: 600px;
+  row-gap: 20px;
+  column-gap: 35px;
+  justify-content: space-evenly;
+}
+
+.service-card {
+  border: 3.5px solid #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 18px;
+  h2 {
+    padding: 15px;
+    background-color: #0891B2;
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+    padding: 0 35px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  p {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #0891B2;
+    color: #fff;
+  }
+}
